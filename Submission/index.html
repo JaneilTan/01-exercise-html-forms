@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create an account</h1>
+    <form action="https://formspree.io/xgenpywa" method="POST">
+        <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="name" type="password">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <textarea name="address" id="address"></textarea>
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="New Zealand">New Zealand</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </div>
+        <div>
+            <input  id="newsletter" name="newsletter" type="checkbox">
+            <label for="newsletter">Sign up to newsletter</label>
+        </div>
+        <button type="submit">Create account</button>
+    </form>
+</body>
+</html>
